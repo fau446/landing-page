@@ -35,19 +35,36 @@ a {
     color: #E5E7EB;
 }
 
+.hero {
+    padding: 50px 200px;
+    display: flex;
+    gap: 15px;
+}
+
 h1 {
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
 }
 
 .hero p {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
+    padding: 5px 0;
 }
 
 .button {
     background-color: #3882F6;
-    display: inline;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 7px 30px;
+}
+
+.image {
+    border: dotted;
+    width: 575px;
+    height: 200px;
 }
 
 h2 {
