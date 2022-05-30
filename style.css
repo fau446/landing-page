@@ -73,7 +73,7 @@ h1 {
 
 .info {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 
 .container {
@@ -123,4 +123,27 @@ h2 {
 .banner {
     color: #F9FAF8;
     background-color: #3882F6;
+    border-radius: 7px;
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    margin: 80px 0;
+    gap: 120px;
+}
+
+.white-border {
+    border: solid white;
+}
+
+.left h3, .left p {
+    margin: 0;
+}
+
+/* Footer */
+
+.footer {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
