@@ -1,5 +1,10 @@
 body {
     font-family: roboto, sans-serif;
+    margin: 0;
+}
+
+.header, .hero, .info, .quote, .bottom, .footer {
+    padding: 0 200px;
 }
 
 .header, .hero, .footer {
@@ -7,8 +12,27 @@ body {
     color: #F9FAF8;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo {
     font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 h1 {
