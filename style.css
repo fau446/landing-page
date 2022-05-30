@@ -73,6 +73,7 @@ h1 {
 
 .info {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .container {
@@ -101,12 +102,18 @@ h2 {
 
 .quote {
     background-color: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .quote p {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin: 0;
 }
 
 .quoter {
